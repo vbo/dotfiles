@@ -1,0 +1,12 @@
+[core]
+    excludesfile = /home/prod/.gitignore
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto

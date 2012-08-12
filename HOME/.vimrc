@@ -5,6 +5,13 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" Tabstops are 4 spaces
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set autoindent
+
 " Disable all bells
 set noerrorbells visualbell t_vb=
 
