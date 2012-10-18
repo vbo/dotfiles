@@ -10,3 +10,6 @@
 	diff = auto
 	interactive = auto
 	status = auto
+[user]
+	email = borodin.vadim@gmail.com
+	name = Borodin Vadim
