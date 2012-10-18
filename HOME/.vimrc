@@ -115,5 +115,10 @@ set synmaxcol=2048
 
 
 " Bindings
-nmap <leader>cc :<C-U>silent make %:r<CR>:redraw!<CR>:!./%:r<CR>
+" Some C/C++ stuff
+nmap <leader>cc :<C-U>!make %:r && ./%:r<CR>
+nmap <leader>cl :<C-U>!rm -f ./%:r<CR>
+
+" Save as root
+nmap <leader>wr :w !sudo tee %
 
