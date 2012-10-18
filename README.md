@@ -3,5 +3,5 @@ My dotfiles
 
 Install
 -------
-$ find -type f ~/dotfiles/HOME | xargs -I {} ln -s {} ~
+$ find ~/dotfiles/HOME -type f | xargs -I {} ln -s {} ~
 
