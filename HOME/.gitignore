@@ -1,1 +1,62 @@
+# OS-specific garbage
 .DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+#
+# Tool-specific garbage
+#
+# Vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Jetbrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VCS
+/CVS/*
+*/CVS/*
+.cvsignore
+*/.cvsignore
+.svn/
+
+# Etags and ctags
+TAGS
+!TAGS/
+tags
+!tags/
+
+# Netbeans
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Other
+.realsync
+
+#
+# C++
+#
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+

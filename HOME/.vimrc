@@ -1,3 +1,7 @@
+" infect my vim with usefull plugins
+" from ~/.vim/bundle
+call pathogen#infect()
+
 set nocompatible
 
 " Get that filetype stuff happening
@@ -13,7 +17,7 @@ set expandtab
 set autoindent
 
 " Disable all bells
-set noerrorbells visualbell t_vb=
+set noerrorbells novisualbell t_vb=
 
 " Remove GUI
 :set guioptions-=m  "remove menu bar
@@ -108,4 +112,8 @@ set incsearch
 
 " Syntax coloring lines that are too long just slows down the world
 set synmaxcol=2048
+
+
+" Bindings
+nmap <leader>cc :<C-U>silent make %:r<CR>:redraw!<CR>:!./%:r<CR>
 
