@@ -1,0 +1,6 @@
+! .Xresources!
+! :!xrdb % to apply
+! dont forget to restart programs
+
+! urxvt scrollbar style - rxvt (default), plain (most compact), next, or xterm
+URxvt.scrollstyle: plain
