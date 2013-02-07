@@ -13,3 +13,5 @@
 [user]
 	email = borodin.vadim@gmail.com
 	name = Borodin Vadim
+[push]
+	default = matching

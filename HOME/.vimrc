@@ -114,11 +114,29 @@ set incsearch
 set synmaxcol=2048
 
 
+"
 " Bindings
+" 
+
 " Some C/C++ stuff
 nmap <leader>cc :<C-U>!make %:r && ./%:r<CR>
 nmap <leader>cl :<C-U>!rm -f ./%:r<CR>
 
 " Save as root
 nmap <leader>wr :w !sudo tee %
+
+" CtrlP
+set wildignore+=*.swp,*.zip,*.exe,*.pyc,.git\*,.idea\*
+let g:ctrlp_root_markers = ['.realsync']
+
+"
+" Maps
+"
+
+" Find and go-to. Mnemonics \find<what>
+nmap <leader>fp  :CtrlP<CR>
+nmap <leader>fsf :CtrlPCurFile<CR>
+nmap <leader>fb  :CtrlPBuffer<CR>
+nmap <leader>ft  :CtrlPTag<CR>
+nmap <leader>fr  :CtrlPMRUFiles<CR>
 
